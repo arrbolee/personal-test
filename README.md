@@ -4,3 +4,6 @@
 debugtestproject.c是我第一次测试debug功能
 twofunctio.c是我第一次封装一个函数
 虽然现在代码量还少，但万事开头难，环境已经搭建好，后面都顺理成章了。
+2026-9-21
+talkback.c中第一次涉及新的预处理指令与数组，包括了读取数组的内存空间占用和字符长度。
+其中#include <string.h>包含的sizeof函数和strlen函数分别用来实现上述功能
